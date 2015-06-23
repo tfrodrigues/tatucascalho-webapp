@@ -1,0 +1,47 @@
+body {
+	background: url(../img/background_stripes.gif);
+	color: #3b3b41;
+	border: none;
+	font-family: sans-serif;
+	font-weight: 400;
+}
+
+.error_box {
+	margin-top: 20%;
+	position: relative;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.error_panel {
+	background: #fff url(../img/alert64.png) no-repeat 30px center;
+	padding: 50px 30px 50px 120px;
+}
+
+.error_link {
+	position: absolute;
+	bottom: 10px;
+	right: 14px;
+	font-size: 11px;
+}
+
+#stacktraceDiv p {
+	margin: 0;
+	font-size: 12px;
+	word-wrap: break-word;
+}
+
+.error_stack_trace_box {
+	display: none;
+}
+
+.error_stack_trace {
+	background-color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
